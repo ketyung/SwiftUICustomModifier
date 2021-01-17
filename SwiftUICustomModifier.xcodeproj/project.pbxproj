@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1023A94525B112920035968F /* SwiftUICustomModifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A94425B112920035968F /* SwiftUICustomModifierApp.swift */; };
-		1023A94725B112920035968F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A94625B112920035968F /* ContentView.swift */; };
+		1023A94725B112920035968F /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A94625B112920035968F /* Example4.swift */; };
 		1023A94925B1129A0035968F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1023A94825B1129A0035968F /* Assets.xcassets */; };
 		1023A94C25B1129A0035968F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1023A94B25B1129A0035968F /* Preview Assets.xcassets */; };
+		1023A95525B112B40035968F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A95425B112B40035968F /* Extensions.swift */; };
+		1023A95C25B138C20035968F /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A95B25B138C20035968F /* Example3.swift */; };
+		1023A96125B290820035968F /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A96025B290820035968F /* Example1.swift */; };
+		1023A96425B2E1B00035968F /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A96325B2E1B00035968F /* CustomActivityIndicator.swift */; };
+		1023A96925B2E9ED0035968F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A96825B2E9ED0035968F /* MenuView.swift */; };
+		1023A97025B420BE0035968F /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1023A96F25B420BE0035968F /* Example2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1023A94125B112920035968F /* SwiftUICustomModifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICustomModifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1023A94425B112920035968F /* SwiftUICustomModifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomModifierApp.swift; sourceTree = "<group>"; };
-		1023A94625B112920035968F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1023A94625B112920035968F /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
 		1023A94825B1129A0035968F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1023A94B25B1129A0035968F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1023A94D25B1129A0035968F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1023A95425B112B40035968F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1023A95B25B138C20035968F /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
+		1023A96025B290820035968F /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
+		1023A96325B2E1B00035968F /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		1023A96825B2E9ED0035968F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1023A96F25B420BE0035968F /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				1023A94425B112920035968F /* SwiftUICustomModifierApp.swift */,
-				1023A94625B112920035968F /* ContentView.swift */,
+				1023A94625B112920035968F /* Example4.swift */,
+				1023A95B25B138C20035968F /* Example3.swift */,
+				1023A96F25B420BE0035968F /* Example2.swift */,
+				1023A96825B2E9ED0035968F /* MenuView.swift */,
+				1023A96025B290820035968F /* Example1.swift */,
+				1023A96325B2E1B00035968F /* CustomActivityIndicator.swift */,
+				1023A95425B112B40035968F /* Extensions.swift */,
 				1023A94825B1129A0035968F /* Assets.xcassets */,
 				1023A94D25B1129A0035968F /* Info.plist */,
 				1023A94A25B1129A0035968F /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1023A94725B112920035968F /* ContentView.swift in Sources */,
+				1023A96925B2E9ED0035968F /* MenuView.swift in Sources */,
+				1023A94725B112920035968F /* Example4.swift in Sources */,
+				1023A95525B112B40035968F /* Extensions.swift in Sources */,
+				1023A96425B2E1B00035968F /* CustomActivityIndicator.swift in Sources */,
 				1023A94525B112920035968F /* SwiftUICustomModifierApp.swift in Sources */,
+				1023A96125B290820035968F /* Example1.swift in Sources */,
+				1023A95C25B138C20035968F /* Example3.swift in Sources */,
+				1023A97025B420BE0035968F /* Example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

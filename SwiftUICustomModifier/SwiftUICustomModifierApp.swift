@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUICustomModifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           Example2()
+           //MenuView()
+          // ContentView()
+          //  CustomActivityIndicator(color: Color.purple)
         }
     }
 }
